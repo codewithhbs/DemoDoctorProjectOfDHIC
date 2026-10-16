@@ -5,7 +5,7 @@ const { sendOtpWhatsapp } = require("./sendWhatsappMessage");
 require("dotenv").config();
 const OTP_EXPIRY = parseInt(process.env.OTP_EXPIRY_MINUTES || "5", 10);
 
-const generateOtp = () =>
+// const generateOtp = () =>
   // Math.floor(100000 + Math.random() * 900000).toString();
 const generateOtp = () => 123456;
 
